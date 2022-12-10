@@ -5,11 +5,8 @@ import nltk
 from nltk.corpus import wordnet
 import os
 import openai
-from secrets import OPENAI_API_KEY
 
-#os.environ["OPENAI_API_KEY"] = "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"
-
-
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
 def get_location():
     cities = pd.read_csv('data/worldcities.csv')[['city', 'country']]
