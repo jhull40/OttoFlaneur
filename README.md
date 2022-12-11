@@ -1,4 +1,4 @@
-# Stick Reeves
+# Otto Flaneur
 
 This is a pseudo-serious, but mostly for banter project that leverages new AI models to create an instagram bot.
 
